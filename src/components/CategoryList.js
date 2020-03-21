@@ -4,7 +4,7 @@ import CategoryItem from "./CategoryItem";
 
 function CategoryList() {
   return (
-    <section className="padding-tb-xxlarge">
+    <section>
       <ul className="category-list">
         {categoriesData.map(category => (
           <CategoryItem category={category} key={category.id} />

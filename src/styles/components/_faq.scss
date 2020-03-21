@@ -1,0 +1,9 @@
+.faq {
+  background-color: var(--color-grey-light-2);
+  padding: 10rem 0;
+  &-header,
+  &-question {
+    width: 85vw;
+    margin: 0 auto;
+  }
+}

@@ -4,7 +4,7 @@ import QuestionItem from "./QuestionItem";
 
 function QuestionList() {
   return (
-    <ul>
+    <ul className="faq-question">
       {questionsData.map(question => (
         <QuestionItem key={question.id} questionInfo={question} />
       ))}

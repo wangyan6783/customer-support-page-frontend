@@ -4,7 +4,7 @@ import QuestionList from "./QuestionList";
 
 function FAQ() {
   return (
-    <section>
+    <section className="faq">
       <FAQHeader />
       <QuestionList />
     </section>
