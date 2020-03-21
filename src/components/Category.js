@@ -8,7 +8,9 @@ import {
   faUser,
   faTag,
   faCheckCircle,
-  faQuestionCircle
+  faQuestionCircle,
+  faPlus,
+  faMinus
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -18,16 +20,18 @@ library.add(
   faUser,
   faTag,
   faCheckCircle,
-  faQuestionCircle
+  faQuestionCircle,
+  faPlus,
+  faMinus
 );
 
 function Category({ category: { name, description, icon } }) {
   return (
-    <div>
+    <li>
       <FontAwesomeIcon icon={icon} />
       <h4>{name}</h4>
       <p>{description}</p>
-    </div>
+    </li>
   );
 }
 
