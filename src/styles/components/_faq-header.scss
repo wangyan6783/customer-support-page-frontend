@@ -1,0 +1,13 @@
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 4rem;
+  border-bottom: var(--border-bottom-grey);
+  @media screen and (max-width: 768px) {
+    display: block;
+    & .faq-header-section-1 {
+      margin-bottom: 2rem;
+    }
+  }
+}
