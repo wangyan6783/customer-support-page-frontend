@@ -6,12 +6,12 @@ import FAQ from "../components/FAQ";
 
 function CustomerSupportPage() {
   return (
-    <React.Fragment>
+    <div className="customer-support-page">
       <Directory main="Home" sub="Customer Support" />
       <MainHeader />
       <CategoryList />
       <FAQ />
-    </React.Fragment>
+    </div>
   );
 }
 

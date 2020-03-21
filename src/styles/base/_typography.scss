@@ -11,3 +11,12 @@ h4 {
 p {
   font-size: 1.6rem;
 }
+
+.main-link-text {
+  font-size: 1.6rem;
+  text-decoration: none;
+
+  &:visited {
+    color: var(--color-primary);
+  }
+}
