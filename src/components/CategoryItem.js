@@ -27,10 +27,14 @@ library.add(
 
 function CategoryItem({ category: { name, description, icon } }) {
   return (
-    <li>
-      <FontAwesomeIcon icon={icon} />
-      <h4>{name}</h4>
-      <p>{description}</p>
+    <li className="category-item">
+      <div className="category-item-icon-wrapper">
+        <FontAwesomeIcon icon={icon} className="category-item-icon" />
+      </div>
+      <div>
+        <h4 className="category-item-title">{name}</h4>
+        <p>{description}</p>
+      </div>
     </li>
   );
 }

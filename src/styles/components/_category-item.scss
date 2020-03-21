@@ -1,0 +1,19 @@
+.category-item {
+  list-style: none;
+  display: flex;
+  cursor: pointer;
+
+  &-icon-wrapper {
+    width: 7rem;
+    margin-right: 2rem;
+  }
+
+  &-icon {
+    font-size: 4rem;
+  }
+
+  &-title {
+    color: var(--color-primary);
+    padding-bottom: 1rem;
+  }
+}
