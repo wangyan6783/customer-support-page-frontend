@@ -12,6 +12,10 @@ p {
   font-size: 1.6rem;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .main-link-text {
   font-size: 1.6rem;
   text-decoration: none;
@@ -19,4 +23,8 @@ p {
   &:visited {
     color: var(--color-primary);
   }
+}
+
+.sub-text {
+  color: var(--color-grey-light);
 }
