@@ -25,7 +25,7 @@ library.add(
   faMinus
 );
 
-function Category({ category: { name, description, icon } }) {
+function CategoryItem({ category: { name, description, icon } }) {
   return (
     <li>
       <FontAwesomeIcon icon={icon} />
@@ -35,4 +35,4 @@ function Category({ category: { name, description, icon } }) {
   );
 }
 
-export default Category;
+export default CategoryItem;

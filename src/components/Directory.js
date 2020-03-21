@@ -2,7 +2,7 @@ import React from "react";
 
 function Directory({ main, sub }) {
   return (
-    <div className="directory margin-tb-medium">
+    <div className="directory margin-tb-small">
       <a href="#" className="main-link-text">
         {main}
       </a>
