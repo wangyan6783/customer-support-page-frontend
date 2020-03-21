@@ -6,7 +6,7 @@ import FAQ from "../components/FAQ";
 
 function CustomerSupportPage() {
   return (
-    <div className="customer-support-page">
+    <div>
       <Directory main="Home" sub="Customer Support" />
       <MainHeader />
       <CategoryList />
