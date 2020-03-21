@@ -1,7 +1,7 @@
 import React from "react";
 
 function Directory() {
-  return <p>Home / Customer Support</p>;
+  return <div>Home / Customer Support</div>;
 }
 
 export default Directory;
