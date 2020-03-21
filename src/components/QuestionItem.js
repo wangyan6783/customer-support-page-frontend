@@ -9,13 +9,15 @@ function QuestionItem({ questionInfo: { question, answer } }) {
   }
 
   return (
-    <li>
+    <li className="faq-question-item" onClick={handleShowAnswer}>
       <FontAwesomeIcon
+        className="faq-question-icon"
         icon={showAnswer ? "minus" : "plus"}
-        onClick={handleShowAnswer}
       />
-      <h4>{question}</h4>
-      <p>{showAnswer && answer}</p>
+      <div>
+        <h4 className="faq-question-title">{question}</h4>
+        <p className="faq-question-answer">{showAnswer && answer}</p>
+      </div>
     </li>
   );
 }

@@ -4,7 +4,7 @@ function FAQHeader() {
   return (
     <header className="faq-header">
       <div>
-        <p className="uppercase padding-b-1">Frequently Asked Questions</p>
+        <p className="uppercase padding-b-2">Frequently Asked Questions</p>
         <h1>You have questions.</h1>
         <h1>Our sleep experts have answers.</h1>
       </div>
