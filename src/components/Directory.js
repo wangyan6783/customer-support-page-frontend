@@ -1,12 +1,13 @@
 import React from "react";
+import directoryContent from "../data/directory-content";
 
-function Directory({ main, sub }) {
+function Directory() {
   return (
     <div className="directory">
       <a href="#" className="main-link-text">
-        {main}
+        {directoryContent.mainDirectory}
       </a>
-      <p className="sub-text inline">{` / ${sub}`}</p>
+      <p className="sub-text inline">{` / ${directoryContent.subDirectory}`}</p>
     </div>
   );
 }

@@ -1,15 +1,16 @@
 import React from "react";
+import faqHeaderContent from "../data/faq-header-content";
 
 function FAQHeader() {
   return (
     <header className="faq-header">
       <div>
-        <p className="uppercase padding-b-2">Frequently Asked Questions</p>
-        <h1>You have questions.</h1>
-        <h1>Our sleep experts have answers.</h1>
+        <p className="uppercase padding-b-2">{faqHeaderContent.subTitle}</p>
+        <h1>{faqHeaderContent.title1}</h1>
+        <h1>{faqHeaderContent.title2}</h1>
       </div>
       <a href="#" className="main-link-text">
-        View all FAQs
+        {faqHeaderContent.link}
       </a>
     </header>
   );

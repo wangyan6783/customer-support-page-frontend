@@ -1,5 +1,5 @@
 import React from "react";
-import categoriesData from "../data/categories";
+import categoriesData from "../data/categories-data";
 import CategoryItem from "./CategoryItem";
 
 function CategoryList() {

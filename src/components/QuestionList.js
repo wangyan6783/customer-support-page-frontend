@@ -1,5 +1,5 @@
 import React from "react";
-import questionsData from "../data/questions";
+import questionsData from "../data/questions-data";
 import QuestionItem from "./QuestionItem";
 
 function QuestionList() {
