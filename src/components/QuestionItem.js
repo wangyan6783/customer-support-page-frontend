@@ -14,7 +14,7 @@ function QuestionItem({ questionInfo: { question, answer } }) {
         icon={showAnswer ? "minus" : "plus"}
         onClick={handleShowAnswer}
       />
-      <h5>{question}</h5>
+      <h4>{question}</h4>
       <p>{showAnswer && answer}</p>
     </li>
   );

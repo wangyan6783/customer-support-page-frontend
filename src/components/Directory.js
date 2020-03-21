@@ -1,7 +1,11 @@
 import React from "react";
 
-function Directory() {
-  return <div>Home / Customer Support</div>;
+function Directory({ main, sub }) {
+  return (
+    <p>
+      <span>{main}</span> / {sub}
+    </p>
+  );
 }
 
 export default Directory;
