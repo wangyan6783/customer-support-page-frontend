@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Your Orders",
+    "description": "Check order status, track your order, return items and more.",
+    "icon": "shopping-cart"
+  },
+  {
+    "id": 2,
+    "name": "Shipping and Delivery",
+    "description": "Shipping & delivery policies, rates, preparing for delivery, and more.",
+    "icon": "truck"
+  },
+  {
+    "id": 3,
+    "name": "Policies",
+    "description": "Site Terms of Use, Privacy Policy, and Return Policy",
+    "icon": "file-alt"
+  },
+  {
+    "id": 4,
+    "name": "Your Account",
+    "description": "Find or reset password, manage your account, and more.",
+    "icon": "user"
+  },
+  {
+    "id": 5,
+    "name": "Product Registration",
+    "description": "Activate your warranty, Lorem ipsum dolor sit amen",
+    "icon": "tag"
+  },
+  {
+    "id": 6,
+    "name": "Warranties",
+    "description": "Discover warranty information, file a claim, or check a claim status.",
+    "icon": "check-circle"
+  },
+  {
+    "id": 7,
+    "name": "FAQs",
+    "description": "All of your Tempur-Pedic questions answered by our Sleep Experts.",
+    "icon": "question-circle"
+  }
+]
