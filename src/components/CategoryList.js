@@ -1,8 +1,7 @@
 import React from "react";
-import categoriesData from "../data/categories-data";
 import CategoryItem from "./CategoryItem";
 
-function CategoryList() {
+function CategoryList({ categoriesData }) {
   return (
     <section>
       <ul className="category-list">

@@ -1,7 +1,6 @@
 import React from "react";
-import directoryContent from "../data/directory-content";
 
-function Directory() {
+function Directory({ directoryContent }) {
   return (
     <div className="directory">
       <a href="/customer-support-page-frontend/" className="main-link-text">

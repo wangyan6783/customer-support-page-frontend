@@ -1,7 +1,6 @@
 import React from "react";
-import mainHeaderContent from "../data/main-header-content";
 
-function MainHeader() {
+function MainHeader({ mainHeaderContent }) {
   return (
     <header className="main-header">
       <p className="uppercase padding-b-3">{mainHeaderContent.subTitle}</p>

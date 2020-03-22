@@ -1,7 +1,6 @@
 import React from "react";
-import faqHeaderContent from "../data/faq-header-content";
 
-function FAQHeader() {
+function FAQHeader({ faqHeaderContent }) {
   return (
     <header className="faq-header">
       <div className="faq-header-section-1">

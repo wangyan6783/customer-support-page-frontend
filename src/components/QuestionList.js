@@ -1,8 +1,7 @@
 import React from "react";
-import questionsData from "../data/questions-data";
 import QuestionItem from "./QuestionItem";
 
-function QuestionList() {
+function QuestionList({ questionsData }) {
   return (
     <ul className="faq-question-list">
       {questionsData.map(question => (
