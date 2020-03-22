@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/customer-support-page-frontend/static/css/main.0fcc07fd.chunk.css",
+    "main.js": "/customer-support-page-frontend/static/js/main.31e3e3e9.chunk.js",
+    "main.js.map": "/customer-support-page-frontend/static/js/main.31e3e3e9.chunk.js.map",
+    "runtime-main.js": "/customer-support-page-frontend/static/js/runtime-main.f1f0ff11.js",
+    "runtime-main.js.map": "/customer-support-page-frontend/static/js/runtime-main.f1f0ff11.js.map",
+    "static/js/2.7142bf80.chunk.js": "/customer-support-page-frontend/static/js/2.7142bf80.chunk.js",
+    "static/js/2.7142bf80.chunk.js.map": "/customer-support-page-frontend/static/js/2.7142bf80.chunk.js.map",
+    "index.html": "/customer-support-page-frontend/index.html",
+    "precache-manifest.6ed6b22e6254655023e815c51adc1d7d.js": "/customer-support-page-frontend/precache-manifest.6ed6b22e6254655023e815c51adc1d7d.js",
+    "service-worker.js": "/customer-support-page-frontend/service-worker.js",
+    "static/css/main.0fcc07fd.chunk.css.map": "/customer-support-page-frontend/static/css/main.0fcc07fd.chunk.css.map",
+    "static/js/2.7142bf80.chunk.js.LICENSE.txt": "/customer-support-page-frontend/static/js/2.7142bf80.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1f0ff11.js",
+    "static/js/2.7142bf80.chunk.js",
+    "static/css/main.0fcc07fd.chunk.css",
+    "static/js/main.31e3e3e9.chunk.js"
+  ]
+}
