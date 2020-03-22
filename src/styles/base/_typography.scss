@@ -19,10 +19,7 @@ p {
 .main-link-text {
   font-size: 1.6rem;
   text-decoration: none;
-
-  &:visited {
-    color: var(--color-primary);
-  }
+  color: var(--color-primary);
 }
 
 .sub-text {
