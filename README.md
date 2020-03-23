@@ -1,6 +1,6 @@
 ## Summary
 
-This project is to build a customer support page with a page directory, header, support categories list, and frequently asked questions list.
+This project is to build a customer support page with the page directory, header, support categories list, and frequently asked questions list.
 
 ## Visit Site
 
